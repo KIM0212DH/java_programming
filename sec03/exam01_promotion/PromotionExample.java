@@ -8,16 +8,16 @@ public class PromotionExample {
 		int		intValue = byteValue;
 		System.out.println(intValue);
 		
-		char	charValue = '°¡';
-		intValue = charValue;	//ÀÛÀº °Í¿¡¼­ Å«°ÍÀº ÀÚµ¿ promotion
-		System.out.println("°¡ÀÇ À¯´ÏÄÚµå="+ intValue);
+		char	charValue = 'ï¿½';
+		intValue = charValue;	//ï¿½ï¿½ï¿½ï¿½ ï¿½Í¿ï¿½ï¿½ï¿½ Å«ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ promotion
+		System.out.println("="+ intValue);
 		
 		intValue = 500;
-		long	longValue = intValue;	//ÀÛÀº °Í¿¡¼­ Å«°ÍÀº ÀÚµ¿ promotion
+		long	longValue = intValue;	//ï¿½ï¿½ï¿½ï¿½ ï¿½Í¿ï¿½ï¿½ï¿½ Å«ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ promotion
 		System.out.println(longValue);
 		
 		intValue = 200;
-		double doubleValue = intValue;	//ÀÛÀº °Í¿¡¼­ Å«°ÍÀº ÀÚµ¿ promotion
+		double doubleValue = intValue;	//ï¿½ï¿½ï¿½ï¿½ ï¿½Í¿ï¿½ï¿½ï¿½ Å«ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ promotion
 		System.out.println(doubleValue);
 	}
 
