@@ -6,7 +6,7 @@ public class ArrayReferenceObjectExample {
 		// TODO Auto-generated method stub
 		String[] strArray = new String[3];
 		strArray[0] = "Java";
-		strArray[1] = "java";
+		strArray[1] = "Java";
 		strArray[2] = new String("Java");
 		
 		System.out.println(strArray[0] == strArray[1]);

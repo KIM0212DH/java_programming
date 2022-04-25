@@ -1,7 +1,6 @@
 package practice.week6.q1;
 
 public class ColorTV extends TV {
-    private int size;
     private int color;
     ColorTV(int size, int color) {
         super(size);

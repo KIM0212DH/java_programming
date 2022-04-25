@@ -2,8 +2,6 @@ package practice.week6.q1;
 
 public class IPTV extends ColorTV {
     private String ip;
-    private int size;
-    private int color;
 
     IPTV(String ip, int size, int color) {
         super(size, color);

@@ -1,3 +1,5 @@
+package 과제;
+
 public class Rectangle {
     double x;
     double y;
@@ -52,7 +54,7 @@ public class Rectangle {
         System.out.println();
         */
 
-        if (r.getX() + r.getWidth()/(double)2 <= this.getX() + this.getWidth()/(double)2 && r.getY() + r.getHeight()/(double)2 <= this.getY() + this.getHeight()/(double)2)
+        if (r.getX() + r.getWidth()/2 <= this.getX() + this.getWidth()/2 && r.getY() + r.getHeight()/2 <= this.getY() + this.getHeight()/2)
             return true;
         else
             return false;
