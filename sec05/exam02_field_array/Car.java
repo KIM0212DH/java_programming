@@ -1,4 +1,4 @@
-package sec05.ex02_field_array;
+package sec05.exam02_field_array;
 
 public class Car {
     Tire[] tires = {
