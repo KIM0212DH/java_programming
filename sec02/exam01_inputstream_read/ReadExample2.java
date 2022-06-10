@@ -9,10 +9,10 @@ public class ReadExample2 {
 
         int readByteNo;
         byte[] readBytes = new byte[3];
-        String data = "";
-        while((readByteNo = is.read(readBytes)) != -1)
+        String data = " ";
+        while ((readByteNo = is.read(readBytes)) != -1) {
             data += new String(readBytes, 0, readByteNo);
-            //String(문자열로 바꿀 배열, 시작위치, 개수)
+        }
         System.out.println(data);
         is.close();
     }

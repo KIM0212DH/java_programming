@@ -14,6 +14,6 @@ public class BufferedReaderExample {
         System.out.print("입력: ");
         String lineString = br.readLine();
 
-        System.out.println("출력 " + lineString);
+        System.out.println("출력: " + lineString);
     }
 }

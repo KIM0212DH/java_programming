@@ -13,10 +13,9 @@ public class FileOutputStreamExample {
 
         int readByteNo;
         byte[] readBytes = new byte[100];
-        while( (readByteNo = fis.read(readBytes)) != -1 ) {
-            fos.write(readBytes, 0, readByteNo);
+        while ((readByteNo = fis.read(readBytes)) != -1) {
+            fos.write(readBytes,0, readByteNo);
         }
-
         fos.flush();
         fos.close();
         fis.close();

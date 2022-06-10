@@ -10,5 +10,6 @@ public class WriteExample3 {
         os.write(data, 1, 2);
         os.flush();
         os.close();
+
     }
 }

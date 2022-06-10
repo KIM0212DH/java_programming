@@ -9,18 +9,14 @@ public class FileExample {
         File file2 = new File("file2.txt");
         File file3 = new File("test3.txt");
 
-        if (dir.exists() == false) {
+        if(dir.exists() == false)
             dir.mkdirs();
-        }
-        if (file1.exists() == false) {
+        if(file1.exists() == false)
             file1.createNewFile();
-        }
-        if (file2.exists() == false) {
+        if(file2.exists() == false)
             file2.createNewFile();
-        }
-        if (file3.exists() == false) {
+        if(file3.exists() == false)
             file3.createNewFile();
-        }
 
         System.out.println(file3);
         System.out.println(file3.getPath());

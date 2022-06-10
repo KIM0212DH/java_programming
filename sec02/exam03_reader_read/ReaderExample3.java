@@ -10,8 +10,9 @@ public class ReaderExample3 {
         int readCharNo;
         char[] cbuf = new char[4];
         readCharNo = reader.read(cbuf, 1, 2);
-        for(int i = 0; i < cbuf.length; i++)
+        for (int i = 0; i < cbuf.length; i++) {
             System.out.println(cbuf[i]);
+        }
         reader.close();
     }
 }

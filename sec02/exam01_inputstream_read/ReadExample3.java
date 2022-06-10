@@ -10,9 +10,9 @@ public class ReadExample3 {
         int readByteNo;
         byte[] readBytes = new byte[8];
         readByteNo = is.read(readBytes, 2, 3);
-        for(int i = 0; i < readBytes.length; i++)
-            System.out.println((char) readBytes[i]);
-
+        for (int i = 0; i < readBytes.length; i++) {
+            System.out.println((char)readBytes[i]);
+        }
         is.close();
     }
 }
